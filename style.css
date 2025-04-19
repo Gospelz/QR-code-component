@@ -24,7 +24,7 @@ section{
     width:15% ;
     height: auto;
     margin: auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .qr-backgroung img {
     width: 100%;
@@ -33,14 +33,16 @@ section{
     border-radius: 16px;
 
 }
-.qr-backgroung h1 {
-    font-size: 3vmin;
+.qr-backgroung h4 {
+    font-size: 12px;
+    padding: 0 10px;
     color: hsl(218, 44%, 22%);
     text-align: center;
 }
 .qr-backgroung p {
-    font-size: 15px;
-    color: hsl(218, 44%, 22%);
-    margin-top: 20px;
+    font-size: 9px;
+    color: hsl(216, 15%, 48%);
+    padding: 0 10px;
+    margin: 10px 0 20px 0;
     text-align: center;
 }
