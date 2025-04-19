@@ -54,6 +54,7 @@ body {
     .qr-background {
         width: 80%;  /* Take up more of the screen width */
         padding: 16px;  /* Slightly reduced padding */
+        margin: auto;  /* Center the QR code background */
     }
 
     .qr-background h4 {
