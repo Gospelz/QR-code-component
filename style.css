@@ -7,6 +7,11 @@
 body {
         font-family: 'Outfit', sans-serif;
         background-color:   hsl(212, 45%, 89%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
 }
 .qr-background {
     display: flex;
@@ -14,9 +19,10 @@ body {
     align-items: center;
     justify-content: center;
     background-color: hsl(0, 0%, 100%);
-    width:15% ;
+    width: 200px;
+    max-width: 90%;
     height: auto;
-    margin: 150px auto;
+    margin: 0;
     border-radius: 10px;
 }
 .qr-background img {
