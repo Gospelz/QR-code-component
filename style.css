@@ -45,3 +45,38 @@ body {
     margin: 10px 0 20px 0;
     text-align: center;
 }
+/* Mobile - Standard Phone */
+@media (max-width: 600px) {
+    body {
+        padding: 0 10px;  /* Add some padding to the body for smaller screens */
+    }
+
+    .qr-background {
+        width: 80%;  /* Take up more of the screen width */
+        padding: 16px;  /* Slightly reduced padding */
+    }
+
+    .qr-background h4 {
+        font-size: 14px;  /* Smaller font for mobile */
+    }
+
+    .qr-background p {
+        font-size: 11px;  /* Smaller font for better fitting */
+    }
+}
+
+/* Extra Small Phones - Landscape or Smaller Phones */
+@media (max-width: 400px) {
+    .qr-background {
+        width: 90%;  /* Make it a bit wider for extra small screens */
+        padding: 12px;  /* Even less padding for tight screens */
+    }
+
+    .qr-background h4 {
+        font-size: 13px;  /* Adjust text size */
+    }
+
+    .qr-background p {
+        font-size: 10px;  /* Adjust text size */
+    }
+}
